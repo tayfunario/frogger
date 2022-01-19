@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #333;
+}
+
+.container {
+    top: 50px;
+    position: relative;
+    width: 500px;
+    height: 600px;
+    margin: auto;
+    border: 5px solid red;
+    overflow: hidden;
+}
+
+.kutu {
+    width: 100%;
+    height: 67px;
+    position: relative;
+}
+
+.asfalt {
+    background-color: rgb(85, 85, 85);
+}
+
+.orta {
+    border: 5px solid white;
+    border-style: dashed none;
+}
+
+.deniz {
+    background-color: blue;
+}
+
+.zemin {
+    background-color: brown;
+}
+
+.idiv {
+    position: absolute;
+    top: 7px;
+    display: none;
+}
+
+.kurbaga img,
+.idiv img {
+    position: relative;
+    width: auto;
+    height: 50px;
+}
+
+.odiv {
+    position: absolute;
+    top: 10px;
+}
+
+.odiv img {
+    width: auto;
+    height: 50px;
+}
+
+.kurbaga {
+    position: absolute;
+}
